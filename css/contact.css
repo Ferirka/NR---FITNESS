@@ -1,0 +1,90 @@
+/* contact */
+
+.contact__container {
+    margin-bottom: 50px;
+}
+
+.main__contact-heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.contact__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.map__card {
+    margin-bottom: 20px;
+    background-color: black;
+}
+
+.contact__card {
+    width: 100%;
+    max-width: 394px;
+    height: auto;
+    min-height: 200px;
+    padding: 20px 20px;
+    margin-right: 63px;
+    background-color: black;
+}
+
+.contact__card:last-child {
+    margin-right: 0;
+}
+
+.contact__heading {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card__list {
+    padding: 0;
+    margin: 0;
+}
+
+.card__item {
+    margin-bottom: 11px;
+    list-style: none;
+}
+
+.strong__address {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card__social-list {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 28px;
+}
+
+.card__social-item {
+    list-style: none;
+}
+
+.card__social-link {
+    margin-bottom: ;
+}
+
+.card__address {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.card__email-link {
+    font-size: 15px;
+    font-weight: 400;
+}
