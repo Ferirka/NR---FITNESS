@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
     margin-bottom: 50px;
-    font-size: 36px;
+    font-size: 3.6rem;
     font-weight: 600;
     text-align: center;
 }
@@ -16,17 +16,24 @@
 
 .contact__block {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .map__card {
+    display: flex;
     margin-bottom: 20px;
     background-color: black;
 }
 
+.contact__list {
+    display: flex;
+    flex-direction: row;
+}
+
 .contact__card {
+
     width: 100%;
     max-width: 394px;
     height: auto;
@@ -44,7 +51,7 @@
     padding: 0;
     margin: 0;
     margin-bottom: 16px;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -60,7 +67,7 @@
 
 .strong__address {
     margin-bottom: 8px;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
@@ -75,16 +82,126 @@
 }
 
 .card__social-link {
-    margin-bottom: ;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
+
+
 .card__address {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 1.5rem;
+    font-weight: 400;
     font-style: normal;
 }
 
 .card__email-link {
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 400;
+}
+
+.card__link {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1023px) {
+    .contact__container {
+        width: 100%;
+    }
+
+    .map__card {
+        width: 600px;
+        margin-bottom: 20px;
+        background-color: black;
+    }
+
+    .contact__card {
+        width: 100%;
+        max-width: 218px;
+        height: auto;
+        min-height: 200px;
+        padding: 20px 20px;
+        margin-right: 63px;
+        background-color: black;
+    }
+
+    .contact__card:last-child {
+        margin-right: 0;
+    }
+
+    .contact__heading {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 16px;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .card__list {
+        padding: 0;
+        margin: 0;
+    }
+
+    .card__item {
+        margin-bottom: 11px;
+        list-style: none;
+    }
+
+    .strong__address {
+        margin-bottom: 8px;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+    .card__social-list {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 28px;
+    }
+
+    .card__social-item {
+        list-style: none;
+    }
+
+    .card__social-link {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+
+
+    .card__address {
+        font-size: 1.2rem;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .card__email-link {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .card__link {
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact__list {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    }
+
+    .contact__card {
+        width: 100%;
+        max-width: 218px;
+        height: auto;
+        min-height: 200px;
+        padding: 20px 20px;
+        margin-right: 0;
+        background-color: black;
+    }
 }
