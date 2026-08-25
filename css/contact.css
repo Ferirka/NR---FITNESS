@@ -17,29 +17,30 @@
 .contact__block {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+   align-items: center;
     flex-wrap: wrap;
 }
 
 .map__card {
     display: flex;
+    min-width: 1094px;
     margin-bottom: 20px;
-    background-color: black;
+    
 }
 
 .contact__list {
     display: flex;
     flex-direction: row;
+    
 }
 
 .contact__card {
-
     width: 100%;
-    max-width: 394px;
+    min-width: 330px;
     height: auto;
     min-height: 200px;
     padding: 20px 20px;
-    margin-right: 63px;
+    margin-right: 53px;
     background-color: black;
 }
 
@@ -86,8 +87,6 @@
     font-weight: 400;
 }
 
-
-
 .card__address {
     font-size: 1.5rem;
     font-weight: 400;
@@ -110,18 +109,16 @@
     }
 
     .map__card {
-        width: 600px;
-        margin-bottom: 20px;
-        background-color: black;
+        min-width: 750px;
     }
 
     .contact__card {
         width: 100%;
-        max-width: 218px;
+        min-width: 200px;
         height: auto;
         min-height: 200px;
-        padding: 20px 20px;
-        margin-right: 63px;
+        padding: 10px 10px;
+        margin-right: 53px;
         background-color: black;
     }
 
@@ -190,18 +187,22 @@
 @media (max-width: 768px) {
     .contact__list {
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     gap: 10px;
+
+    }
+
+    .map__card {
+        min-width: 199px;
     }
 
     .contact__card {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        max-width: 218px;
-        height: auto;
-        min-height: 200px;
-        padding: 20px 20px;
+        
         margin-right: 0;
-        background-color: black;
+     
     }
 }
