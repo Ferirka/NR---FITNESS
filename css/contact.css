@@ -13,11 +13,10 @@
     text-align: center;
 }
 
-
 .contact__block {
     display: flex;
     flex-direction: column;
-   align-items: center;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -25,13 +24,11 @@
     display: flex;
     min-width: 1094px;
     margin-bottom: 20px;
-    
 }
 
 .contact__list {
     display: flex;
     flex-direction: row;
-    
 }
 
 .contact__card {
@@ -165,8 +162,6 @@
         font-weight: 400;
     }
 
-
-
     .card__address {
         font-size: 1.2rem;
         font-weight: 400;
@@ -186,11 +181,10 @@
 
 @media (max-width: 768px) {
     .contact__list {
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    gap: 10px;
-
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .map__card {
@@ -201,8 +195,6 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        
         margin-right: 0;
-     
     }
 }
